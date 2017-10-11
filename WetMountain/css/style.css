@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:'IM Fell English', serif;
+}
+
+p {
+	font-family:'IM Fell English', serif;
+	background-color: rgb(224,224,224);
+	color:rgb(40,40,40);
+	opacity:1.0;
+}
+
+#showcase{
+	font-family:"IM Fell English SC";
+	background-image:url('../images/logo.png'), url('../images/board.jpg');
+	opacity:.8;
+	background-size:65%, cover;
+	background-position:center, center;
+	background-repeat:no-repeat, no-repeat;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	padding:0px 20px;
+}
+
+#showcase .button{
+	font-size:600%;
+	text-decoration:none;
+	color:rgb(11,11,14);
+	transition: all 0.25s
+}
+
+#showcase .button:hover{
+	color:rgb(22,29,22);
+}
+
+#main {
+	font-family:"IM Fell English SC";
+	font-size: 200%;
+	background-image:url("../images/board3.jpg");
+	opacity:.8;
+	background-size:cover;
+	background-position:top;
+	background-repeat:no-repeat;
+	min-height:77vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	padding:0px 20px;
+	position:relative;
+}
+
+#mainP {
+	font-family: serif;
+	position: absolute;
+	bottom:20px;
+	left:10px;
+	right:10px;
+	font-size: 20px;
+	border-style: solid;
+    border-width: 2px;
+    border-color: rgb(184,184,184);
+	opacity:.7;
+}
+
+#wma {
+	min-height:15vh;
+	font-family:"IM Fell English SC";
+	font-size: 250%;
+	display: -webkit-flex;
+    display: inline-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+	color: rgb(77, 89, 102);
+	margin:0px;
+	padding: 0px;
+	min-width:100%;
+	background-color: grey;
+	opacity:95%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	min-height: 8vh;
+	font-family:"IM Fell English";
+	display: -webkit-flex;
+    display: inline-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+	min-width: 100%;
+    background-color: rgb(152,152,152);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    display: -webkit-flex;
+    display: inline-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(245,245,245);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: rgb(220,220,220);*/
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(152,152,152);
+    color: rgb(66, 75, 87);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
